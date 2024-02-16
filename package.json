@@ -1,0 +1,17 @@
+{
+  "name": "promise_rejection",
+  "version": "1.0.0",
+  "description": "promise rejections in different testing frameworks",
+  "scripts": {
+    "mocha": "echo \"Error: no test specified\" && exit 1",
+    "vitest": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tenkiller/promise_rejection.git"
+  },
+  "devDependencies": {
+    "mocha": "^10.3.0",
+    "vitest": "^1.2.2"
+  }
+}
