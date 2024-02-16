@@ -1,5 +1,4 @@
 import { expect } from 'chai'
-import sinon from 'sinon'
 import Component from '../../src/Component.js'
 
 describe('Component', function() {
@@ -11,7 +10,7 @@ describe('Component', function() {
 
   it('should error', async function() {
     const component = new Component()
-    sinon.stub(component, 'work').resolves(Promise.reject(new Error('error')))
+    component.work = Promise.reject(new Error('error')) // doesn't throw an error
     const result = await component.render()
     expect(result).to.be.false
   })
