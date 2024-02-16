@@ -1,0 +1,6 @@
+{
+  "extends": "plugin:vitest/recommended",
+  "plugins": [
+    "vitest"
+  ]
+}
