@@ -11,6 +11,7 @@
     "url": "git+https://github.com/tenkiller/promise_rejection.git"
   },
   "devDependencies": {
+    "eslint": "^8.56.0",
     "mocha": "^10.3.0",
     "vitest": "^1.2.2"
   }
