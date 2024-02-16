@@ -6,6 +6,9 @@
     "mocha": "mocha --bail --color test/mocha",
     "vitest": "vitest --bail 1 --dir test/vitest run"
   },
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "type": "module",
   "repository": {
     "type": "git",
